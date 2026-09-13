@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: agb-netalertx
+category: networking
+name: NetAlertX
+version: "v26.9.0"
+tagline: Discover and monitor devices on your local network
+description: >-
+  NetAlertX continuously discovers devices on your local network and records
+  their presence, identity, and changes. It combines multiple discovery methods,
+  including ARP, Nmap, mDNS, NetBIOS, and optional SNMP, so devices do not need
+  to support SNMP to be inventoried. Use it as the discovery side of a future
+  NetAlertX-to-HomeBox synchronization workflow.
+developer: NetAlertX
+website: https://netalertx.com
+dependencies: []
+repo: https://github.com/netalertx/NetAlertX
+support: https://github.com/netalertx/NetAlertX/issues
+port: 20211
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+icon: https://raw.githubusercontent.com/netalertx/NetAlertX/main/front/img/NetAlertX_logo.png
+releaseNotes: >-
+  Initial AGB Homelab Apps package. Uses host networking and the capabilities
+  required for local-network discovery, with persistent data managed by Umbrel.
+submitter: agb
